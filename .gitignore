@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data + trained weights (do not commit — large / regenerable)
+data/*.gz
+data/*.ubyte
+models/*.npz
+models/*.npy
+
+# Generated figures (regenerable from the notebook)
+figures/*.png
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
